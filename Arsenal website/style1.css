@@ -1,0 +1,26 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.418);
+    color: #ebebeb;
+    width: 100%;
+    padding: 30px;
+  }
+h1{
+  font-family: 'Mali', cursive;
+}
+.p{
+  font-family: 'Mali', cursive;
+}
+
+  

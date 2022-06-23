@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: rgb(255, 255, 255);
+}
+header {
+  background-color: rgb(211, 3, 3);
+  padding: 5px;
+  text-align: left;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+}
+nav {
+  float: left;
+  width: 17%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 83%;
+  background-color: #e7e7e7;
+  height: auto; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.nav-link {
+  color: darkred;
+  font-family: 'Itim', cursive;
+}
+a{
+  list-style-type: circle;
+}
+p{
+  font-size: 24px;
+  font-family: 'Itim', cursive;
+  color: #000;
+}
+.imgp1{
+border-radius: 20px;
+width: 50%;
+}
+.imgp2{
+  border-radius: 20px;
+  width: 40%;
+  }
+  .imgp3{
+    border-radius: 20px;
+    width: 70%;
+    }
+  .card-text{
+    font-size: 16px;
+    font-family: 'Itim', cursive;
+    color: #000;
+  }
+  ul{
+    list-style-type: disc;
+    font-family: 'Itim', cursive;
+  }
+  .li1{
+    list-style-type: square;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+  }
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  h5{
+    color: #000000;
+    font-family: 'Itim', cursive;
+  }
+  li{
+    font-family: 'Itim', cursive;
+    color: #000;
+  }
+  h2{
+    font-family: 'Itim', cursive;
+  }
+  h4{
+    font-family: 'Itim', cursive;
+  }
+  h3{
+    font-family: 'Itim', cursive;
+  }
+
+
